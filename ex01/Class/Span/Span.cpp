@@ -48,7 +48,7 @@ void Span::addNumber(int n)
 long int Span::shortestSpan(void)
 {
 	if (this->_numbers.size() < 2)
-		throw (Span::noNumbers());
+		throw Span::noNumbers();
 	std::vector<long int>	lv(this->_numbers.size());
 	for (size_t i = 0; i < this->_numbers.size(); i++)
 		lv[i] = this->_numbers[i];
@@ -57,7 +57,7 @@ long int Span::shortestSpan(void)
 	for (size_t i = 0; i < diff.size(); i++)
 		if (diff[i] < 0)
 			diff[i] = -diff[i];
-	return(*(std::min_element(diff.begin() + 1, diff.end() - 1)));
+	return(*(std::min_element(diff.begin() + 1, diff.end())));
 }
 
 long int Span::longestSpan(void)
