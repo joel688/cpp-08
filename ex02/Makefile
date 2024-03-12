@@ -5,18 +5,18 @@
 #                                                     +:+ +:+         +:+      #
 #    By: joakoeni <joakoeni@student.42mulhouse.fr>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/03/12 10:44:21 by joakoeni          #+#    #+#              #
-#    Updated: 2024/03/12 10:44:23 by joakoeni         ###   ########.fr        #
+#    Created: 2024/03/12 10:44:01 by joakoeni          #+#    #+#              #
+#    Updated: 2024/03/12 13:42:03 by joakoeni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= Span
+NAME		= AbominationMutante
 
 CXX			= c++
 CXXFLAGS	= -Wall -Wextra -Werror -std=c++98 -g3
 
 SRCS		= ./main.cpp\
-			  ./Class/Span/Span.cpp\
+			  ./Class/MutantStack/MutantStack.cpp\
 
 OBJS		=		$(SRCS:.cpp=.o)
 
