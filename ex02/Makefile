@@ -6,7 +6,7 @@
 #    By: joakoeni <joakoeni@student.42mulhouse.fr>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/12 10:44:01 by joakoeni          #+#    #+#              #
-#    Updated: 2024/03/14 09:30:34 by joakoeni         ###   ########.fr        #
+#    Updated: 2024/03/14 09:45:47 by joakoeni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,6 +16,7 @@ CXX			= c++
 CXXFLAGS	= -Wall -Wextra -Werror -std=c++98 -g3
 
 SRCS		= ./main.cpp\
+			  ./Class/MutantStack/MutantStack.cpp\
 
 OBJS		=		$(SRCS:.cpp=.o)
 

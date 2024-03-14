@@ -6,11 +6,12 @@
 /*   By: joakoeni <joakoeni@student.42mulhouse.fr>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 13:40:49 by joakoeni          #+#    #+#             */
-/*   Updated: 2024/03/14 09:38:27 by joakoeni         ###   ########.fr       */
+/*   Updated: 2024/03/14 09:46:02 by joakoeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "./Class/MutantStack/MutantStack.hpp"
+#include "./Class/MutantStack/MutantStack.cpp"
 
 int main()
 {
